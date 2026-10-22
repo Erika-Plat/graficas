@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt
+valores = [10, 15, 12, 18, 20]
+plt.hist(valores, bins=5, edgecolor="black")
+plt.xlabel("Valores")
+plt.ylabel("Frecuencia")
+plt.title("Histograma de 5 valores")
+plt.savefig("histograma.png")
